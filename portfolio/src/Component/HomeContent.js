@@ -1,7 +1,8 @@
+
 const HomeContent = () =>{
     return (
-        <div className="home-wrap h-[80%] w-full flex justify-center items-center text-[#607B96] ">
-            <div className="leftcontent h-[100%] w-full flex justify-center flex-col items-end text-left">
+        <div className="home-wrap h-[100vh] w-full flex justify-center items-center text-[#607B96] ">
+            <div className="leftcontent h-[100%] w-full flex justify-center flex-col items-center text-left">
                <p>
                <p className="text-[18px] text-[#E5E9F0]">Hi all, I am</p>
                 
@@ -22,9 +23,9 @@ const HomeContent = () =>{
                     
                 
             </div>
-            <div className="rightcontent h-[100%] w-full flex justify-center flex-col items-first">
-                <div className="h-[100%] w-[100%] flex justify-center items-center">
-                    <img className=" w-[275px]"src="./img/photo.jpeg" alt=""/>
+            <div className="rightcontent h-[100%] w-full flex justify-center flex-col items-center">
+                <div className="h-[60%] w-[50%] flex justify-center items-center border rounded-3xl ">
+                    <img className=" w-[275px]"src="./img/photo1.png" alt=""/>
                 </div>
             </div>
         </div>

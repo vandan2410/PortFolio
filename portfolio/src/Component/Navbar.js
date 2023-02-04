@@ -3,7 +3,7 @@
 const Navbar=()=>{
     return(
         <div >
-            <div className="navbar h-[50.19px] top-0 w-full border border-[#1E2D3D] flex text-[#607B96] text-[18px] justify-between items-center font-[fira code]">
+            <div className="navbar fixed h-[50.19px] bg-[#011627]  top-0 w-full border border-[#1E2D3D] flex text-[#607B96] text-[18px] justify-between items-center font-[fira code]">
                 <div className="name  w-[40%] h-full border-[#1E2D3D]  flex items-center ">
                     <div className="border-r border-[#1E2D3D] h-full w-[80%] flex  items-center pl-5">
                         <p>vandan-hood</p>
